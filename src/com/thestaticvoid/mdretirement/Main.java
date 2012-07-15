@@ -231,7 +231,7 @@ public class Main implements SelectionListener, FocusListener {
 				value += 0.1425 * salary;
 			}
 			
-			for (int i = age; i < retage; i++) {
+			for (int i = age + service; i < retage; i++) {
 				value *= 1 + returnRate / 100.0;
 			}
 			
